@@ -12,6 +12,8 @@
 		692414B51E5EEF8100557BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692414B31E5EEF8100557BCD /* Main.storyboard */; };
 		692414B71E5EEF8100557BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692414B61E5EEF8100557BCD /* Assets.xcassets */; };
 		692414BA1E5EEF8100557BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692414B81E5EEF8100557BCD /* LaunchScreen.storyboard */; };
+		692414C31E5F175900557BCD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692414C11E5F175900557BCD /* HomeViewController.swift */; };
+		692414C41E5F175900557BCD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 692414C21E5F175900557BCD /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		692414B61E5EEF8100557BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		692414B91E5EEF8100557BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		692414BB1E5EEF8100557BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692414C11E5F175900557BCD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		692414C21E5F175900557BCD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				692414B11E5EEF8100557BCD /* ViewController.swift */,
 				692414B31E5EEF8100557BCD /* Main.storyboard */,
 				692414B61E5EEF8100557BCD /* Assets.xcassets */,
+				692414C11E5F175900557BCD /* HomeViewController.swift */,
+				692414C21E5F175900557BCD /* HomeViewController.xib */,
 				692414B81E5EEF8100557BCD /* LaunchScreen.storyboard */,
 				692414BB1E5EEF8100557BCD /* Info.plist */,
 			);
@@ -127,6 +133,7 @@
 				692414BA1E5EEF8100557BCD /* LaunchScreen.storyboard in Resources */,
 				692414B71E5EEF8100557BCD /* Assets.xcassets in Resources */,
 				692414B51E5EEF8100557BCD /* Main.storyboard in Resources */,
+				692414C41E5F175900557BCD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			files = (
 				692414B21E5EEF8100557BCD /* ViewController.swift in Sources */,
 				692414B01E5EEF8100557BCD /* AppDelegate.swift in Sources */,
+				692414C31E5F175900557BCD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9R2KZ86ZHL;
 				INFOPLIST_FILE = PhotoAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mayk.PhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9R2KZ86ZHL;
 				INFOPLIST_FILE = PhotoAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mayk.PhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
